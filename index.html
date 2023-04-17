@@ -8,9 +8,17 @@
   <meta name="keywords" content="Temporizador">
   <meta name="author" content=" Marcelo G Leiva">
   <title>Temporizador</title>
-  <link rel="stylesheet" href="/css/reloj.css">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  
+  <div class="container">
+    <h1>Temporizador</h1>
+    <input type="number" id="inputTiempo" placeholder="Ingrese el tiempo en segundos">
+    <button onclick="iniciarTemporizador()">Iniciar</button>
+    <button onclick="pausarTemporizador()">Pausar</button>
+    <button onclick="reiniciarTemporizador()">Reiniciar</button>
+    <h2 id="contador">00:00:00</h2>
+  </div>
+  <script src="/js/script.js"></script>
 </body>
 </html>
